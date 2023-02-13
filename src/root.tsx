@@ -19,8 +19,8 @@ export default function Root() {
   const location = useLocation();
   const active = (path: string) =>
     path == location.pathname
-      ? "border-sky-600"
-      : "border-transparent hover:border-sky-600";
+      ? "border-indigo-500"
+      : "border-transparent hover:border-indigo-500";
   return (
     <Html lang="en">
       <Head>
@@ -28,19 +28,28 @@ export default function Root() {
         <Meta charset="utf-8" />
         <Meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <Body>
+      <Body class="bg-zinc-900">
         <Suspense>
           <ErrorBoundary>
-            <nav class="bg-sky-800">
-              <ul class="container flex items-center p-3 text-gray-200">
-                <li class={`border-b-2 ${active("/")} mx-1.5 sm:mx-6`}>
-                  <A href="/">Home</A>
+            <div class="flex justify-center">
+              <ul class="container flex items-center p-3 text-gray-200 justify-center">
+                <li class={`border-b-2 ${active("/")} mx-3 sm:mx-6 text-xl`}>
+                  <A href="/" class="monospace">
+                    Home
+                  </A>
                 </li>
-                <li class={`border-b-2 ${active("/about")} mx-1.5 sm:mx-6`}>
-                  <A href="/about">About</A>
+                <li class={`border-b-2 ${active("/about")} mx-3 sm:mx-6 text-xl`}>
+                  <A href="/about" class="monospace">
+                    About
+                  </A>
+                </li>
+                <li class={`border-b-2 ${active("/services")} mx-3 sm:mx-6 text-xl`}>
+                  <A href="/services" class="monospace">
+                    Services
+                  </A>
                 </li>
               </ul>
-            </nav>
+            </div>
             <Routes>
               <FileRoutes />
             </Routes>

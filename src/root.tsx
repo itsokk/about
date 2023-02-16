@@ -39,12 +39,18 @@ export default function Root() {
                     Home
                   </A>
                 </li>
-                <li class={`border-b-2 ${active("/about")} mx-3 sm:mx-6 text-xl`}>
+                <li
+                  class={`border-b-2 ${active("/about")} mx-3 sm:mx-6 text-xl`}
+                >
                   <A href="/about" class="monospace">
                     About
                   </A>
                 </li>
-                <li class={`border-b-2 ${active("/services")} mx-3 sm:mx-6 text-xl`}>
+                <li
+                  class={`border-b-2 ${active(
+                    "/services"
+                  )} mx-3 sm:mx-6 text-xl`}
+                >
                   <A href="/services" class="monospace">
                     Services
                   </A>

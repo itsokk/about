@@ -33,13 +33,13 @@ export default function About() {
         </li>
       </ul>
       <p class="my-16">
-      <A href="/" class="text-indigo-500 hover:underline">
+        <A href="/" class="text-indigo-500 hover:underline">
           Home
         </A>{" "}
         {" - "}
-        <span>
-          About
-        </span>{" - "}<A href="/services" class="text-indigo-500 hover:underline">
+        <span>About</span>
+        {" - "}
+        <A href="/services" class="text-indigo-500 hover:underline">
           Services
         </A>{" "}
       </p>

@@ -6,7 +6,7 @@ export default function Services() {
     <main class="text-center mx-auto text-white p-4">
       <h1 class="text-4xl">Services</h1>
       <p class="text-xl my-4">
-        I try to selfhost as much as i can. These are the services i selfhost.
+        I try to selfhost as much as I can. These are the services I selfhost.
         <br />
         Feel free to use them!
         <br />
@@ -39,6 +39,11 @@ export default function Services() {
           name="Dumb"
           description="Alternative privacy-focused frontend for Genius"
           url="https://lyrics.itsokk.me"
+        />
+        <Service
+          name="Rimgo"
+          description="Alternative privacy-focused frontend for Imgur"
+          url="https://rimgo.itsokk.me"
         />
       </div>
       <p class="mt-8">

@@ -11,7 +11,7 @@ export default function Home() {
           class="ml-4 inline-block w-12 h-12"
         />
       </h1>
-      <p class="my-8">coder and tech enthusiast based in Poland.</p>
+      <p class="my-8">FOSS and tech enthusiast based in Poland.</p>
       <p class="my-16">
         <span>Home</span>
         {" - "}

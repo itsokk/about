@@ -60,6 +60,11 @@ export default function Services() {
           description="Simple, fast, secure client-side file encryption."
           url="https://hat.itsokk.me"
         />
+        <Service
+          name="Libremdb"
+          description="Alternative privacy-focused frontend for IMDb"
+          url="https://imdb.itsokk.me"
+        />
       </div>
       <p class="mt-8">
         You can automatically redirect websites to these alternatives using{" "}

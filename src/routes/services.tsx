@@ -51,11 +51,6 @@ export default function Services() {
           url="https://quetre.itsokk.me"
         />
         <Service
-          name="Cyberchef"
-          description="The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis."
-          url="https://chef.itsokk.me"
-        />
-        <Service
           name="Hat.sh"
           description="Simple, fast, secure client-side file encryption."
           url="https://hat.itsokk.me"
@@ -64,6 +59,11 @@ export default function Services() {
           name="Libremdb"
           description="Alternative privacy-focused frontend for IMDb"
           url="https://imdb.itsokk.me"
+        />
+        <Service
+          name="Cyberchef"
+          description="The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis."
+          url="https://chef.itsokk.me"
         />
       </div>
       <p class="mt-8">

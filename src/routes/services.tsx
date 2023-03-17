@@ -45,6 +45,11 @@ export default function Services() {
           description="Alternative privacy-focused frontend for Imgur"
           url="https://rimgo.itsokk.me"
         />
+        <Service
+          name="Quetre"
+          description="Alternative privacy-focused frontend for Quora"
+          url="https://quetre.itsokk.me"
+        />
       </div>
       <p class="mt-8">
         You can automatically redirect websites to these alternatives using{" "}

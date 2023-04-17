@@ -18,52 +18,52 @@ export default function Services() {
         <Service
           name="Piped"
           description="Alternative privacy-focused frontend for Youtube"
-          url="https://piped.itsokk.me"
+          url="https://piped.okk.pm"
         />
         <Service
           name="Libreddit"
           description="Alternative privacy-focused frontend for Reddit"
-          url="https://reddit.itsokk.me"
+          url="https://reddit.okk.pm"
         />
         <Service
           name="Beatbump"
           description="Alternative privacy-focused frontend for Youtube Music"
-          url="https://music.itsokk.me"
+          url="https://music.okk.pm"
         />
         <Service
           name="AnonymousOverflow"
           description="Alternative privacy-focused frontend for StackOverflow"
-          url="https://code.itsokk.me"
+          url="https://code.okk.pm"
         />
         <Service
           name="Dumb"
           description="Alternative privacy-focused frontend for Genius"
-          url="https://lyrics.itsokk.me"
+          url="https://lyrics.okk.pm"
         />
         <Service
           name="Rimgo"
           description="Alternative privacy-focused frontend for Imgur"
-          url="https://rimgo.itsokk.me"
+          url="https://rimgo.okk.pm"
         />
         <Service
           name="Quetre"
           description="Alternative privacy-focused frontend for Quora"
-          url="https://quetre.itsokk.me"
+          url="https://quetre.okk.pm"
         />
         <Service
           name="Hat.sh"
           description="Simple, fast, secure client-side file encryption."
-          url="https://hat.itsokk.me"
+          url="https://hat.okk.pm"
         />
         <Service
           name="Libremdb"
           description="Alternative privacy-focused frontend for IMDb"
-          url="https://imdb.itsokk.me"
+          url="https://imdb.okk.pm"
         />
         <Service
           name="Cyberchef"
           description="The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis."
-          url="https://chef.itsokk.me"
+          url="https://chef.okk.pm"
         />
       </div>
       <p class="mt-8">
